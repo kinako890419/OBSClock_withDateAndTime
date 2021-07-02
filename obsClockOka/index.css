@@ -1,0 +1,41 @@
+.clock{
+    background: rgb(255, 252, 246);
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+    
+}
+
+.clock-time,.clock-ampm{
+    font-family: 'Jomhuria', cursive;
+    font-size: 55px;
+    color: rgb(255, 222, 172) ;
+}
+
+.clock-time{
+    font-size: 120px;
+    color: rgb(146, 221, 255);
+    position: absolute;
+    left:170px;top:80px;
+}
+
+.clock-ampm{
+    position: absolute;
+    left:435px;
+    top:120px;
+}
+.dates{
+    position: absolute;
+    left:170px;
+    top:40px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 75px;
+    color: rgb(193, 224, 220) ;
+}
+
+.img{
+    position: absolute;
+    left:-10px;
+    top:20px;
+}
